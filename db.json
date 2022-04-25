@@ -1,0 +1,32 @@
+{
+  "productList": [
+    {
+      "productName": "oneplus 10",
+      "category": "Phones",
+      "freshness": "Brand New",
+      "price": 50000,
+      "comment": "latest phone  from OP",
+      "date": "2022-04-23T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "oneplus 10",
+      "category": "Phones",
+      "freshness": "Brand New",
+      "price": 50000,
+      "comment": "latest phone",
+      "date": "2022-04-23T18:30:00.000Z",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

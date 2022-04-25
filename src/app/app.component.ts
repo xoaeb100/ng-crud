@@ -17,7 +17,6 @@ constructor(private dialog: MatDialog){}
    openDialog() {
     this.dialog.open(DialogComponent, {
       width: '30%',
-      // data: {phone: 'iPhone',os: 'ios'}
     });
   }
 }
