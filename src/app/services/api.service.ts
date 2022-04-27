@@ -9,10 +9,10 @@ export class ApiService {
   constructor(private http: HttpClient) { }
 
   postProduct(data: any){
-    return this.http.post<any>("http://localhost:3000/productList/", data);
+    return this.http.post<any>("http://localhost:3000/paymentList/", data);
 
   }
   getProduct(){
-    return this.http.get<any>("http://localhost:3000/productList/")
+    return this.http.get<any>("http://localhost:3000/paymentList/")
   }
 }

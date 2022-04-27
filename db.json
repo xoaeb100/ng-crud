@@ -1,22 +1,20 @@
 {
-  "productList": [
+  "paymentList": [
     {
-      "productName": "oneplus 10",
-      "category": "Phones",
-      "freshness": "Brand New",
-      "price": 50000,
-      "comment": "latest phone  from OP",
-      "date": "2022-04-23T18:30:00.000Z",
-      "id": 1
+      "productName": "666",
+      "category": "Online",
+      "price": 122,
+      "comment": "paid on paytm",
+      "date": "2022-04-25T18:30:00.000Z",
+      "id": 5
     },
     {
-      "productName": "oneplus 10",
-      "category": "Phones",
-      "freshness": "Brand New",
-      "price": 50000,
-      "comment": "latest phone",
-      "date": "2022-04-23T18:30:00.000Z",
-      "id": 2
+      "productName": "222",
+      "category": "Online",
+      "price": 322,
+      "comment": "sdfasff",
+      "date": "2022-04-11T18:30:00.000Z",
+      "id": 6
     }
   ],
   "comments": [

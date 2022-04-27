@@ -10,7 +10,7 @@ import { FormGroup, FormBuilder, Validators} from '@angular/forms';
 export class DialogComponent implements OnInit {
   freshnessList=["Brand New", "Second Hand","Refurbished"
   ];
-  productForm !: FormGroup;
+  paymentForm !: FormGroup;
   //⬆️ ☝️ ! tells, that the field is non-null non-undefined. : is just the separator between field name and type.
 
 
@@ -20,24 +20,24 @@ export class DialogComponent implements OnInit {
 
   ngOnInit(): void {
     //to initialize our form
-    this.productForm=this.formBuilder.group({
+    this.paymentForm=this.formBuilder.group({
       productName: ['', Validators.required],
       category: ['', Validators.required],
-      freshness: ['', Validators.required],
+      // freshness: ['', Validators.required],
       price: ['', Validators.required],
       comment: ['', Validators.required],
       date: ['', Validators.required],
     })
   }
   addProduct(){
-if(this.productForm.valid){
-  this.api.postProduct(this.productForm.value)
+if(this.paymentForm.valid){
+  this.api.postProduct(this.paymentForm.value)
   .subscribe({
     next:(res)=>{
-      alert("Product added successfully")
+      alert("Entry added successfully")
     },
     error:()=>{
-      alert("error while adding product")
+      alert("error while adding Entry")
     }
   })
 }
