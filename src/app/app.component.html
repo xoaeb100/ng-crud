@@ -4,7 +4,15 @@
   </button>
   <span>My CRUD app</span>
   <span class="example-spacer"></span>
-    <button mat-raised-button (click)="openDialog()" color="warn">New Entry +</button>
+    <button mat-raised-button (click)="openDialog()" color="warn">New Order +</button>
 
 
 </mat-toolbar>
+
+<div *ngFor='let p of products'>
+ <h1> {{p.productName}}</h1>
+
+  <h3> Price: {{p.price}}</h3>
+  <h3> Description: {{p.comment}}</h3>
+
+</div>

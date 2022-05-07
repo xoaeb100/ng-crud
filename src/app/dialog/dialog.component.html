@@ -1,21 +1,21 @@
-<h1 mat-dialog-title >Add an entry</h1>
+<h1 mat-dialog-title >Add an Order</h1>
 <div mat-dialog-content>
 <form [formGroup]="paymentForm">
 
 <mat-form-field appearance="outline">
-  <mat-label>Add an ID</mat-label>
-  <input formControlName="productName" matInput placeholder="ID">
+  <mat-label>Product Name</mat-label>
+  <input formControlName="productName" matInput placeholder="Product Name">
 </mat-form-field>
 
 <mat-form-field appearance="outline">
 
-  <mat-label style="color: aliceblue;" >Mode of payment</mat-label>
+  <mat-label style="color: aliceblue;" >Select Category</mat-label>
 
-  <mat-select formControlName="category" placeholder="Mode of payment">
+  <mat-select formControlName="category" placeholder="category">
 
-<mat-option value="Online" >Online-paid</mat-option>
-<mat-option value="Cash" >Cash</mat-option>
-<mat-option value="NA" >Not-Paid</mat-option>
+<mat-option value="Phone" >Phone</mat-option>
+<mat-option value="Laptop" >Laptop</mat-option>
+<mat-option value="TV" >TV</mat-option>
 
 </mat-select >
 </mat-form-field>

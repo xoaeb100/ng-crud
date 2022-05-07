@@ -7,12 +7,13 @@ import { Injectable } from '@angular/core';
 export class ApiService {
 
   constructor(private http: HttpClient) { }
+  url="http://localhost:3000/productList/"
 
   postProduct(data: any){
-    return this.http.post<any>("http://localhost:3000/paymentList/", data);
+    return this.http.post<any>(this.url, data);
 
   }
   getProduct(){
-    return this.http.get<any>("http://localhost:3000/paymentList/")
+    return this.http.get<any>(this.url)
   }
 }

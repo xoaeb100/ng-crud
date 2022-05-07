@@ -1,30 +1,44 @@
 {
-  "paymentList": [
+  "productList": [
     {
-      "productName": "666",
+      "productName": "oneplus 10",
       "category": "Online",
-      "price": 122,
-      "comment": "paid on paytm",
-      "date": "2022-04-25T18:30:00.000Z",
-      "id": 5
+      "price": 30000,
+      "comment": "latest phone  from OP",
+      "date": "2022-05-24T18:30:00.000Z",
+      "id": 8
     },
     {
-      "productName": "222",
-      "category": "Online",
-      "price": 322,
-      "comment": "sdfasff",
-      "date": "2022-04-11T18:30:00.000Z",
-      "id": 6
-    }
-  ],
-  "comments": [
+      "productName": "samsung WH",
+      "category": "TV",
+      "price": 18000,
+      "comment": "OLED tv from samsung",
+      "date": "2022-05-15T18:30:00.000Z",
+      "id": 9
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "productName": "iPhone 13",
+      "category": "Phone",
+      "price": 70000,
+      "comment": "Best performance",
+      "date": "2021-11-24T18:30:00.000Z",
+      "id": 10
+    },
+    {
+      "productName": "MacBook pro",
+      "category": "Laptop",
+      "price": 120000,
+      "comment": "Macbook with M1 chip",
+      "date": "2022-04-18T18:30:00.000Z",
+      "id": 11
+    },
+    {
+      "productName": "Sony Bravia",
+      "category": "TV",
+      "price": 200000,
+      "comment": "Highest end OLED Tv from Sony",
+      "date": "2022-05-05T18:30:00.000Z",
+      "id": 12
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
